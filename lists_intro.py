@@ -1,14 +1,22 @@
 computer_parts = ["computer", "monitor", "keyboard", "mouse", "mouse pad"]
 
-for part in computer_parts:
-    print(part)
+# for part in computer_parts:
+#     print(part)
+#
+# print()
+# print(computer_parts[2]) # keyboard
+#
+# print(computer_parts[0:3]) # computer, monitor, keyboard
+# print(computer_parts[-1]) # mouse pad
 
-print()
-print(computer_parts[2]) # keyboard
+    # STRINGS ARE IMMUTABLE THEY CAN NOT BE CHANGED
+    # LISTS ARE MUTABLE AND THEY CAN BE CHANGED, SORTED ETC.
 
-print(computer_parts[0:3]) # computer, monitor, keyboard
-print(computer_parts[-1]) # mouse pad
+    # replaces the item at position 3
+# computer_parts[3] = "trackball"
+# print(computer_parts)
 
-# STRINGS ARE IMMUTABLE THEY CAN NOT BE CHANGED
-
-
+    # replaces multiple items using slice
+print(computer_parts[3:])
+computer_parts[3:] = ["trackball"]
+print(computer_parts)
