@@ -29,6 +29,9 @@ print(data)
 
 # process the high values in the list
 start = 0
+# we use -1 as the stop value because the second range option is not inclusive,
+# so we need to use -1 to get the last item in the data.
+# Then we use a step of -1 to work backwards
 for index in range(len(data) - 1, -1, -1):
     if data[index] <= max_valid:
         # We have the index of the last item we want to keep
