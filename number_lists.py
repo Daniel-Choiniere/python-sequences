@@ -14,3 +14,15 @@ print()
 print("mississippi".count("s"))
 print("mississippi".count("iss"))
 
+# combines the odd list to the even list
+print()
+even.extend(odd)
+print(even)
+
+# sorting does not create a new list, it arranges the items in the list
+even.sort()
+print(even)
+
+even.sort(reverse=True)
+print(even)
+
