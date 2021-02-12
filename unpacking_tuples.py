@@ -20,5 +20,10 @@ print(p)
 print(q)
 print(r)
 
+print()
 # another advantage of tuples is that you can always unpack a tuple
 # because a tuple cant be changed you always know how many items there are to unpack
+
+# using enumerate to "pack" tuples
+for character in enumerate("abcdefgh"):
+    print(character)
