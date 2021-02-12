@@ -10,19 +10,19 @@ menu = [
 ]
 
 
-# for meal in menu:
-#     for item in reversed(meal):
-#         if "spam" == item:
-#             meal.remove(item)
-#     print(meal)
+for meal in menu:
+    for item in reversed(meal):
+        if "spam" == item:
+            meal.remove(item)
+    print(", ".join(meal))
 
 print()
 
-for meal in menu:
-    for item in meal:
-        if item != "spam":
-            print(item, end=", ")
-    print()
+# for meal in menu:
+#     for item in meal:
+#         if item != "spam":
+#             print(item, end=", ")
+#     print()
 
 
 
