@@ -37,19 +37,19 @@ albums = [
      ]
      ),
 ]
-
-for name, artist, year, songs in albums:
-    print("Album: {}, Artist: {}, Year: {}, Songs: {}"
-          .format(name, artist, year, songs))
-
-print()
-# accessing an album
-print(albums[2])
-# accessing all songs
-print(albums[2][3])
-# accessing a certain song
-print(albums[2][3][1])
-# accessing title of song only
-print(albums[2][3][1][1])
+#
+# for name, artist, year, songs in albums:
+#     print("Album: {}, Artist: {}, Year: {}, Songs: {}"
+#           .format(name, artist, year, songs))
+#
+# print()
+# # accessing an album
+# print(albums[2])
+# # accessing all songs
+# print(albums[2][3])
+# # accessing a certain song
+# print(albums[2][3][1])
+# # accessing title of song only
+# print(albums[2][3][1][1])
 
 
